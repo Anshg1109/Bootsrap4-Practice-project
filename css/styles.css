@@ -5,7 +5,7 @@
 
 .row-content{
     margin: 0px auto;
-    padding: 100px 0px 100px 0px;
+    padding: 50px 0px 50px 0px;
     border-bottom: 1px ridge;
     min-height: 400px;
 }
@@ -22,10 +22,20 @@
     margin: 0ps auto;
     background: #9575cd;
     color: floralwhite;
+    margin-bottom: 0rem;
 }
 
 .address{
     font-size: 80%;
     margin: 0px;
     color: #0f0f0f;
+}
+
+body{
+    padding:50px 0px 0px 0px;
+    z-index:0;
+}
+
+.navbar-dark {
+     background-color: #512DA8;
 }
