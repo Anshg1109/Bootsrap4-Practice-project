@@ -39,3 +39,15 @@ body{
 .navbar-dark {
      background-color: #512DA8;
 }
+
+
+.card-header{
+    background-color: rgb(250, 185, 6);
+}
+
+
+
+html {
+    scroll-behavior: smooth;
+  }
+  
