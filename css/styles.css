@@ -51,3 +51,8 @@ html {
     scroll-behavior: smooth;
   }
   
+
+.tab-content{
+    border: 1px solid #ddd;
+    padding:10px;
+}
