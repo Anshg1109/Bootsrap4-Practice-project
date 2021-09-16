@@ -31,7 +31,7 @@
                 </ul> 
             </div>
             <span class="navbar-text">
-                <a data-toggle="modal" data-target="#loginModal">
+                <a id="lg">
                 <span class="fa fa-sign-in"></span> Login</a>
             </span>           
         </div>
@@ -39,12 +39,12 @@
     <div id="loginModal" class="modal fade" role="dialog">
         <div class="modal-dialog modal-lg" role="content">
             <!-- Modal content-->
-            <div class="modal-content">
+            <div class="modal-content" id="login-head">
                 <div class="modal-header">
                     <h4 class="modal-title">Login </h4>
                     <button type="button" class="close" data-dismiss="modal">&times;</button>
                 </div>
-                <div class="modal-body">
+                <div class="modal-body" id="login-cont">
                     <form>
                         <div class="form-row">
                             <div class="form-group col-sm-4">
@@ -72,7 +72,7 @@
             </div>
         </div>
     </div>
-    <div id="Reservetable" class="modal fade" role="dialog">
+    <div id="Reservetable" class="modal fade" role="dialog" tabindex="-1">
         <div class="modal-dialog modal-lg" role="content">
             <!-- Modal content-->
             <div class="modal-content">
@@ -169,7 +169,7 @@
                     <img src="img/logo.png" class="img-fluid">
                 </div>
                 <div class="col-12 col-sm-3 align-self-center">
-                        <a data-toggle="modal"  class="btn btn-warning btn-lg" id="btn" data-target="#Reservetable" style=" color: black;
+                        <a class="btn btn-warning btn-lg" id="btn" style="color: black;
                         padding: 0.5rem 3rem;">Reserve Table</a>
                         <!-- <a role="button" class="btn btn-block nav-link btn-warning"
                         data-toggle="tooltip" data-html="true"  title="Or Call us at  <br><strong>+852 12345678</strong>"
@@ -442,6 +442,20 @@
                 }
             });
            
+        });
+    </script>
+    <script>
+        $(document).ready(function(){
+            $("#btn").click(function(){
+                $("#Reservetable").modal('show');
+            });
+        });
+    </script>
+    <script>
+        $(document).ready(function(){
+            $("#lg").click(function(){
+                $("#loginModal").modal('show');
+            });
         });
     </script>
 </body>

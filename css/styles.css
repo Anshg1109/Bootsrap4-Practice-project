@@ -52,3 +52,22 @@ body {
   position: absolute;
   bottom: 0px;
   z-index: 1; }
+
+#reserve {
+  background-color: #512DA8;
+  color: white; }
+  #reserve-body {
+  background-color: #D1C4E9; }
+
+#login-head {
+  background-color: #512DA8;
+  color: white; }
+  #login-head #login-cont {
+    background-color: #D1C4E9;
+    color: black; }
+
+.close {
+  color: #e7e7e7; }
+
+.close:hover {
+  color: white; }

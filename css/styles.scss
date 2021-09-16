@@ -74,3 +74,28 @@ body{
     bottom: 0px;
     z-index: 1;
 }
+
+#reserve{
+    background-color: $background-dark ;
+    color: white;  
+}
+#reserve-body{
+    background-color: $background-pale;
+}
+
+#login-head{
+    background-color: $background-dark;
+    color: white;
+    #login-cont{
+        background-color: $background-pale;
+        color: black;
+    }
+}
+
+.close{
+    color: rgb(231, 231, 231);
+}
+
+.close:hover{
+    color:white;
+}
