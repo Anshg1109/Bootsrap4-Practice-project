@@ -56,7 +56,8 @@ body {
 #reserve {
   background-color: #512DA8;
   color: white; }
-  #reserve-body {
+
+#reserve-body {
   background-color: #D1C4E9; }
 
 #login-head {
@@ -71,3 +72,5 @@ body {
 
 .close:hover {
   color: white; }
+
+/*# sourceMappingURL=styles.css.map */
